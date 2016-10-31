@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529DBB2E1DC73BE7006EEC06 /* app效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = 529DBB2D1DC73BE7006EEC06 /* app效果图.gif */; };
+		529DBB2F1DC73BE7006EEC06 /* app效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = 529DBB2D1DC73BE7006EEC06 /* app效果图.gif */; };
+		529DBB301DC73BE7006EEC06 /* app效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = 529DBB2D1DC73BE7006EEC06 /* app效果图.gif */; };
 		52B3CBB61DC4F18800BDA76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBB51DC4F18800BDA76E /* main.m */; };
 		52B3CBB91DC4F18800BDA76E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBB81DC4F18800BDA76E /* AppDelegate.m */; };
 		52B3CBBC1DC4F18800BDA76E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBBB1DC4F18800BDA76E /* ViewController.m */; };
@@ -15,6 +18,12 @@
 		52B3CBC41DC4F18900BDA76E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B3CBC21DC4F18900BDA76E /* LaunchScreen.storyboard */; };
 		52B3CBCF1DC4F18900BDA76E /* Basic_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBCE1DC4F18900BDA76E /* Basic_CalculatorTests.m */; };
 		52B3CBDA1DC4F18900BDA76E /* Basic_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBD91DC4F18900BDA76E /* Basic_CalculatorUITests.m */; };
+		52B3CBF81DC588DE00BDA76E /* Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBF51DC588DE00BDA76E /* Calculate.m */; };
+		52B3CBF91DC588DE00BDA76E /* Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBF51DC588DE00BDA76E /* Calculate.m */; };
+		52B3CBFA1DC588DE00BDA76E /* Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBF51DC588DE00BDA76E /* Calculate.m */; };
+		52B3CBFB1DC588DE00BDA76E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBF71DC588DE00BDA76E /* Stack.m */; };
+		52B3CBFC1DC588DE00BDA76E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBF71DC588DE00BDA76E /* Stack.m */; };
+		52B3CBFD1DC588DE00BDA76E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3CBF71DC588DE00BDA76E /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		529DBB2D1DC73BE7006EEC06 /* app效果图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "app效果图.gif"; sourceTree = "<group>"; };
 		52B3CBB11DC4F18800BDA76E /* Basic_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B3CBB51DC4F18800BDA76E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52B3CBB71DC4F18800BDA76E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,10 @@
 		52B3CBD51DC4F18900BDA76E /* Basic_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Basic_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B3CBD91DC4F18900BDA76E /* Basic_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Basic_CalculatorUITests.m; sourceTree = "<group>"; };
 		52B3CBDB1DC4F18900BDA76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B3CBF41DC588DE00BDA76E /* Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculate.h; sourceTree = "<group>"; };
+		52B3CBF51DC588DE00BDA76E /* Calculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculate.m; sourceTree = "<group>"; };
+		52B3CBF61DC588DE00BDA76E /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		52B3CBF71DC588DE00BDA76E /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		529DBB2C1DC73BE7006EEC06 /* Raw */ = {
+			isa = PBXGroup;
+			children = (
+				529DBB2D1DC73BE7006EEC06 /* app效果图.gif */,
+			);
+			path = Raw;
+			sourceTree = "<group>";
+		};
 		52B3CBA81DC4F18800BDA76E = {
 			isa = PBXGroup;
 			children = (
+				529DBB2C1DC73BE7006EEC06 /* Raw */,
+				52B3CBF31DC588DE00BDA76E /* Model */,
 				52B3CBB31DC4F18800BDA76E /* Basic_Calculator */,
 				52B3CBCD1DC4F18900BDA76E /* Basic_CalculatorTests */,
 				52B3CBD81DC4F18900BDA76E /* Basic_CalculatorUITests */,
@@ -138,6 +162,17 @@
 				52B3CBDB1DC4F18900BDA76E /* Info.plist */,
 			);
 			path = Basic_CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		52B3CBF31DC588DE00BDA76E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52B3CBF41DC588DE00BDA76E /* Calculate.h */,
+				52B3CBF51DC588DE00BDA76E /* Calculate.m */,
+				52B3CBF61DC588DE00BDA76E /* Stack.h */,
+				52B3CBF71DC588DE00BDA76E /* Stack.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B3CBC41DC4F18900BDA76E /* LaunchScreen.storyboard in Resources */,
+				529DBB2E1DC73BE7006EEC06 /* app效果图.gif in Resources */,
 				52B3CBC11DC4F18900BDA76E /* Assets.xcassets in Resources */,
 				52B3CBBF1DC4F18900BDA76E /* Main.storyboard in Resources */,
 			);
@@ -256,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529DBB2F1DC73BE7006EEC06 /* app效果图.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529DBB301DC73BE7006EEC06 /* app效果图.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B3CBF81DC588DE00BDA76E /* Calculate.m in Sources */,
 				52B3CBBC1DC4F18800BDA76E /* ViewController.m in Sources */,
 				52B3CBB91DC4F18800BDA76E /* AppDelegate.m in Sources */,
+				52B3CBFB1DC588DE00BDA76E /* Stack.m in Sources */,
 				52B3CBB61DC4F18800BDA76E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +323,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B3CBFC1DC588DE00BDA76E /* Stack.m in Sources */,
+				52B3CBF91DC588DE00BDA76E /* Calculate.m in Sources */,
 				52B3CBCF1DC4F18900BDA76E /* Basic_CalculatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B3CBFD1DC588DE00BDA76E /* Stack.m in Sources */,
+				52B3CBFA1DC588DE00BDA76E /* Calculate.m in Sources */,
 				52B3CBDA1DC4F18900BDA76E /* Basic_CalculatorUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +551,7 @@
 				52B3CBE01DC4F18900BDA76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52B3CBE11DC4F18900BDA76E /* Build configuration list for PBXNativeTarget "Basic_CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +560,7 @@
 				52B3CBE31DC4F18900BDA76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52B3CBE41DC4F18900BDA76E /* Build configuration list for PBXNativeTarget "Basic_CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +569,7 @@
 				52B3CBE61DC4F18900BDA76E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

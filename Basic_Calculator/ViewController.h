@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Calculate.h"
 @interface ViewController : UIViewController
 
-
+-(Calculate *)calculator;
 @end
 
