@@ -15,4 +15,4 @@
 ![basic_calculator_effect](https://github.com/ahutsunshine/Basic_Calculator/blob/master/Raw/app%E6%95%88%E6%9E%9C%E5%9B%BE.gif?raw=true)
 
 ## 联系方式
-### Email: <a href="mailto:ahutsunshine@163.com">ahutsunshine@163.com</a>
+Email: <a href="mailto:ahutsunshine@163.com">ahutsunshine@163.com</a>
