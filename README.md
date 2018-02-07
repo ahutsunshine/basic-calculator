@@ -1,4 +1,4 @@
-## 使用栈实现数值表达式求值
+## 使用栈实现算术表达式求值
 * 为了更好地理解Foundation，所以没有用NSExpression，而是自己实现一个栈来完成表达式求值。这就是基本运算所依赖的核心算法。
 
 ## 实现的功能
@@ -15,4 +15,26 @@
 ![basic_calculator_effect](https://github.com/ahutsunshine/Basic_Calculator/blob/master/Raw/app%E6%95%88%E6%9E%9C%E5%9B%BE.gif?raw=true)
 
 ## 联系方式
+Email: <a href="mailto:ahutsunshine@163.com">ahutsunshine@163.com</a>
+
+
+## Implement
+- We use a customized stack to implement an arithmetic expression evaluation instead of using `NSExpression` for better understanding `Foundation`. This is the core algorithm that basic operations depend on.
+
+## Function
+- The project implements basic four arithmetic operations with parenthesis which has function of deleting and clearing.
+
+## Code file structure
+- The Medel folder stores the file which implements algorithm of arithmetic expression.
+- Stack.h and Stack.m are customized stack struture file .Calculate.h defines a number of member variables and operations for basic  arithmetic operations and Calculate.m implements these methods.
+
+## Algorithm reference books
+- If are puzzled about this algorithm, you can refer to Data Structure by Weimin Yan.
+
+## Running effect
+
+![basic_calculator_effect](https://github.com/ahutsunshine/Basic_Calculator/blob/master/Raw/app%E6%95%88%E6%9E%9C%E5%9B%BE.gif?raw=true)
+
+
+## Contact
 Email: <a href="mailto:ahutsunshine@163.com">ahutsunshine@163.com</a>
